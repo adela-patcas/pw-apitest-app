@@ -1,0 +1,22 @@
+{
+  "name": "pw-apitest-app",
+  "version": "1.0.0",
+  "description": "API testing using Playwright framework",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adela-patcas/pw-apitest-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adela-patcas/pw-apitest-app/issues"
+  },
+  "homepage": "https://github.com/adela-patcas/pw-apitest-app#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0"
+  }
+}
