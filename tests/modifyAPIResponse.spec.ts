@@ -11,7 +11,6 @@ test.beforeEach(async ({page}) => {
     await route.fulfill({
         body: JSON.stringify(responseBody)
     })
-    
   })
   
   await page.goto('https://conduit.bondaracademy.com/')
