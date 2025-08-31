@@ -17,4 +17,4 @@ test('Verify Popular Tags section', async ({ page }) => {
   const tagList = page.getByText('Popular Tags').locator('..').locator('.tag-list')
   const tagValues = tags.tags.join(' ');
   await expect(tagList).toHaveText(tagValues)
-})
+});
